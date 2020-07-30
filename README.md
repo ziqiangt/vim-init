@@ -22,7 +22,7 @@
 
 ```bash
 cd ~/.vim
-git clone https://github.com/skywind3000/vim-init.git
+git clone https://github.com/ziqiangt/vim-init.git
 ```
 
 然后创建你的 `~/.vimrc` 文件，里面只有一句话：
