@@ -168,7 +168,7 @@ set wildignore+=*.msi,*.crx,*.deb,*.vfd,*.apk,*.ipa,*.bin,*.msu
 set wildignore+=*.gba,*.sfc,*.078,*.nds,*.smd,*.smc
 set wildignore+=*.linux2,*.win32,*.darwin,*.freebsd,*.linux,*.android
 
-#设置vcs的vim的makeprg，检测到v,sv文件执行make会自动调用vcs指令, 自动生成文件名.log文件
+"设置vcs的vim的makeprg，检测到v,sv文件执行make会自动调用vcs指令, 自动生成文件名.log文件
 au FileType verilog_systemverilog set makeprg=vcs\ -sverilog\ -R\ -l\ %.log\ %
 
 
